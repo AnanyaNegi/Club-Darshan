@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Club-darshan</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="/templates/predictor.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Lobster&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Lobster&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+
+
+<nav class="navbar navbar-light" style="margin-bottom:4rem;background-color: rgb(233, 228, 228);">
+    <a class="navbar-brand" href="#" style="font-family: 'Abril Fatface', cursive;font-size: 1.6rem;color: rgb(160, 25, 77);">Inweb</a>
+</nav>
+
+
+<center>
+    <h1 style="font-family: 'Abril Fatface', cursive;font-size: 4rem;">Club-Darshan</h1>
+    <img src="../2.png" style="width:20%;">
+    <form style="width: 25%;">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Your Name?</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <button type="submit" class="btn" style="background-color:rgb(70, 3, 83);">Submit</button>
+    </form>
+    <br><br>
+    <div class=" jumbotron jumbotron-fluid" style="color:#000;">
+        <form action='/predict' method="post" class="col">
+            <h2 style="font-family: 'Righteous', cursive;font-size: 2.5rem;color: rgb(145, 11, 89);">Help us to know you better!</h2>
+            <br>
+            <ul style="list-style:none">
+
+                <h4>Have you ever been to a website like Geeks for Geeks,leetcode, etc?</h4>
+                <ul class="choices" style="list-style:none">
+                    <li><label><input type="radio" name="question3" value="1"><span>Yes</span></label></li>
+                    <li><label><input type="radio" name="question3" value="0"><span>No</span></label></li>
+                </ul>
+                </li>
+                <li>
+                    <h4>Have you ever seen an app or website and thouhgt about making one of your own?</h4>
+                    <ul class="choices" style="list-style:none">
+                        <li><label><input type="radio" name="question4" value="1"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="question4" value="0"><span>No</span></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Do Drones and Robots fascinate you?</h4>
+                    <ul class="choices" style="list-style:none">
+                        <li><label><input type="radio" name="question5" value="1"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="question5" value="0"><span>No</span></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Did you ever swoon when asked to address a large crowd?</h4>
+                    <ul class="choices" style="list-style:none">
+                        <li><label><input type="radio" name="question6" value="1"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="question6" value="0"><span>No</span></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Do you love to read and ever thought about getting the innner writer out of you?</h4>
+                    <ul class="choices" style="list-style:none">
+                        <li><label><input type="radio" name="question7" value="1"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="question7" value="0"><span>No</span></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Are you a closet painter or do you like to publicly demonstrate your art?</h4>
+                    <ul class="choices" style="list-style:none">
+                        <li><label><input type="radio" name="question8" value="1"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="question8" value="0"><span>No</span></label></li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+
+                <button type="submit" class="btn btn-large  waves-light orange">Predict the Club for me!</button>
+            </div>
+        </form>
+
+    </div>
+    {{pred}}
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small special-color-dark pt-4">
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© Copyright:
+            <a href="https://mdbootstrap.com/"> Inweb</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+</center>
+
+<body style="background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;color: white">
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+
+</html>
