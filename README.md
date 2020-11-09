@@ -14,7 +14,7 @@ https://colab.research.google.com/drive/1VSLrUF3I-x2fNXmWZo8WcmJv_5GZi9wM?usp=sh
 
 ![WhatsApp Image 2020-11-06 at 5 57 26 PM](https://user-images.githubusercontent.com/54658795/98366613-47485400-205a-11eb-84f9-a6dbc0267a8a.jpeg)
 
-### Instructions:
+## Instructions:
 1. Clone the Project and cd over to it in the terrminal.
 
     - Make sure you have python 3.7v or higher preinstalled.Then run:
@@ -23,7 +23,7 @@ https://colab.research.google.com/drive/1VSLrUF3I-x2fNXmWZo8WcmJv_5GZi9wM?usp=sh
         
 2. Run the following command in the app's directory to run your web app.
     `python -m http.server 8000`
-## Contributors
+## Contributors:
 
 <table>
 <tr align="center">
