@@ -10,7 +10,81 @@ The webapp runs on ml model. The model uses binary classifier run on the dataset
 ## Model link:
 https://colab.research.google.com/drive/1VSLrUF3I-x2fNXmWZo8WcmJv_5GZi9wM?usp=sharing
 
-## Screenshots:
+## Preview:
 
 ![WhatsApp Image 2020-11-06 at 5 57 26 PM](https://user-images.githubusercontent.com/54658795/98366613-47485400-205a-11eb-84f9-a6dbc0267a8a.jpeg)
 
+### Instructions:
+1. Clone the Ptoject and cd over to in cmd terrminal.
+
+    - Make sure you have python 3.7v or higher preinstalled.Then run:
+        `pip install <enter package name>`
+    - Some of the packages may be missing,you would want to install them.Try running the project first and then install the packages asked in terminal.
+        
+2. Run the following command in the app's directory to run your web app.
+    `python -m http.server 8000`
+## Contributors
+
+<table>
+<tr align="center">
+
+
+Ananya Negi
+
+<p align="center">
+<img src = ""  height="120" alt="">
+</p>
+<p align="center">
+<a href = "https://github.com/AnanyaNegi"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/ananya-negi-42922018a/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+<td>
+
+Palak Aggarwal
+
+<p align="center">
+<img src = ""  height="120" alt="">
+</p>
+<p align="center">
+<a href = "https://github.com/harshgeek4coder"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/harsh-sharma-484a4ab6/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+<td>
+
+Hrithika Yadav
+
+<p align="center">
+<img src = ""  height="120" alt="">
+</p>
+<p align="center">
+<a href = "https://github.com/harshgeek4coder"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/harsh-sharma-484a4ab6/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+<td>
+
+Vishal S.
+
+<p align="center">
+<img src = ""  height="120" alt="">
+</p>
+<p align="center">
+<a href = "https://github.com/harshgeek4coder"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/harsh-sharma-484a4ab6/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+</tr>
+  </table>
