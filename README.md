@@ -32,7 +32,7 @@ https://colab.research.google.com/drive/1VSLrUF3I-x2fNXmWZo8WcmJv_5GZi9wM?usp=sh
 Ananya Negi
 
 <p align="center">
-<img src = ""  height="120" alt="">
+<img src = "images/ananya.png"  height="120" alt="">
 </p>
 <p align="center">
 <a href = "https://github.com/AnanyaNegi"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -61,7 +61,7 @@ Palak Aggarwal
 Hrithika Yadav
 
 <p align="center">
-<img src = ""  height="120" alt="">
+<img src = "images/hritika.png"  height="120" alt="">
 </p>
 <p align="center">
 <a href = "https://github.com/hrithikayadav"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
