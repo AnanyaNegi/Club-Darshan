@@ -3,10 +3,12 @@
 ## Motivation Behind App:
 We made this Webapp called Club-darshan to benefit all the juniors who didn’t get a chance to experience their campus life let alone the clubs and seniors. Our webapp is befitting but not restricted to all the juniors. 
 
-Anyone who is in dire dilemma of which club to choose? Whether or not it matches their interests and hobbies? can rest assured now. Club-darshan (as the name suggests) helps every student to figure out the club which is made solely for them. *Since your club is your second family at college, why play a blind gamble?*
+Anyone who is in dire dilemma of which club to choose? Whether or not it matches their interests and hobbies? can rest assured now. Club-darshan (as the name suggests) helps every student to figure out the club which is made solely for them.<br>
+*Since your club is your second family at college, why play a blind gamble?*
 
 ## About App:
-The webapp runs on ml model. The model uses binary classifier run on the dataset. In the webapp some questions are asked by the user (7 questions). On the basis of the answers, club prediction is made.
+Club-Darshan works on trained ML model.The questions are asked from the user. According to the input provided, the webapp lists down the domain you are fitted for and the best clubs to join for that domain.
+
 ## Model link:
 https://colab.research.google.com/drive/1VSLrUF3I-x2fNXmWZo8WcmJv_5GZi9wM?usp=sharing
 
